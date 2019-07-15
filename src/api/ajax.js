@@ -4,7 +4,7 @@ import {message} from 'antd'
 
 axios.interceptors.request.use(function(config){
     const {method,data} = config
-    if(method.toLowerCase()==='post'&&data=='Object'){
+    if(method.toLowerCase()==='post' && typeof data==='object'){
         config.data=qs.stringify(data)
     }
     return config
