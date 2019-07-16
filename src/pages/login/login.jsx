@@ -35,8 +35,8 @@ class Login extends Component {
           // 将user信息保存到local
           const user = result.data
           // localStorage.setItem('user_key', JSON.stringify(user))
-          storageUtils.saveUser(user)
-          // 保存到内存中
+          storageUtils.saveUser(user)// 保存到内存中
+          // ******     在浏览器内存中取出存放的数据，放到本地包内保存    *****
           memoryUtils.user = user
 
           // 跳转到管理界面
