@@ -1,12 +1,13 @@
 import React, { Component } from 'react'
+
 /**
- * 角色管理
+ *  线性图
  */
-export default class Role extends Component {
+export default class Line extends Component {
   render() {
     return (
       <div>
-        Role
+        Line
       </div>
     )
   }

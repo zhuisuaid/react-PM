@@ -1,8 +1,5 @@
-/*
-用来在内存中缓存数据的工具对象
- */
 import storageUtils from "./storageUtils"
+
 export default {
-    user: storageUtils.getUser(),  // 内存中保存登陆的user信息对象
-  }
-  
+  user: storageUtils.getUser(), // 用来存储登陆用户的信息, 初始值为local中读取的user
+}

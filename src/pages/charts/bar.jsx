@@ -1,12 +1,13 @@
 import React, { Component } from 'react'
+
 /**
- * 角色管理
+ * 柱状图
  */
-export default class Role extends Component {
+export default class Bar extends Component {
   render() {
     return (
       <div>
-        Role
+        Bar
       </div>
     )
   }

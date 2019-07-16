@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 /**
- * 角色管理
+ * 商品管理
  */
-export default class Role extends Component {
+export default class Product extends Component {
   render() {
     return (
       <div>
-        Role
+        Product
       </div>
     )
   }
